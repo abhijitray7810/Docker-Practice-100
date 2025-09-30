@@ -6,6 +6,5 @@
   Password: Ir0nM@n
 # Steps to Deploy nginx_1 Container on Application Server 1
   ## 1. Connect to Application Server 1
-    ```bash
-     ssh tony@stapp01.stratos.xfusioncorp.com
-    ```
+    
+     ssh tony@stapp01.stratos.xfusioncorp.com 
