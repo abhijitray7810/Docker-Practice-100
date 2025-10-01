@@ -1,1 +1,1 @@
-ansible-playbook -i hosts.yml install_python.yml
+ansible-playbook -i inventory.sh install_python.yml
