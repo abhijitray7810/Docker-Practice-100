@@ -1,0 +1,37 @@
+---
+- name: Install Python on different machines
+  hosts: all
+  become: yes
+  tasks:
+
+    - name: Install Python on Ubuntu/Debian
+      apt:
+        name: [python3, python3-pip, python3-venv]
+        state: present
+      when: ansible_os_family == "Debian"
+
+    - name: Install Python on CentOS/RedHat
+      yum:
+        name: [python3, python3-pip]
+        state: present
+      when: ansible_os_family == "RedHat"
+
+    - name: Install Python on macOS
+      homebrew:
+        name: python
+        state: present
+      when: ansible_system == "Darwin"
+
+    - name: Install Python on Windows
+      win_chocolatey:
+        name: python
+        state: present
+      when: ansible_os_family == "Windows"
+
+    - name: Verify Python version
+      command: python3 --version
+      register: python_version
+      ignore_errors: yes
+
+    - debug:
+        msg: "Python installed: {{ python_version.stdout }}"
