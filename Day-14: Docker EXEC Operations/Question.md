@@ -7,4 +7,4 @@ a. Install apache2 in kkloud container using apt that is running on App Server 2
 b. Configure Apache to listen on port 8087 instead of default http port. Do not bind it to listen on specific IP or hostname only, i.e it should listen on localhost, 127.0.0.1, container ip, etc.
 
 
-c. Make sure Apache service is up and running inside the container. Keep the container in running state at the end.
+c. Make sure Apache service is up and running inside the container. Keep the container in running state at the end. 
