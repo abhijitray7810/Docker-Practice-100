@@ -163,3 +163,7 @@ For issues or questions related to this Docker image, contact the Nautilus appli
 - Apache runs in foreground mode to keep the container running
 - Only port configuration has been modified; all other Apache defaults remain unchanged
 - The image uses Ubuntu's official package repositories for Apache2 installation
+## 👥 Contributors
+- https://github.com/abhijitray7810/Docker-Practice-100/edit/main/Day-15%3A%20Write%20a%20Docker%20File/README.md — DevOps Implementation, Docker Configuration
+- https://www.linkedin.com/in/abhijit-ray-336442295 — Support / Code Review
+
