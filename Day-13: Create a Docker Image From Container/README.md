@@ -154,4 +154,4 @@ docker rm test_ecommerce
 
 ## Support
 
-For issues or questions related to this task, contact the DevOps team or refer to the internal Docker documentation.
+For issues or questions related to this task, contact the DevOps team or refer to the internal Docker documentation. 
