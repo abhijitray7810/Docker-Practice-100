@@ -1,6 +1,6 @@
 # Docker CE and Docker Compose Installation Guide
 
-## Project Overview
+## Project Overview 
 
 This document provides comprehensive instructions for installing Docker CE and Docker Compose on App Server 1 as part of the Nautilus DevOps containerization initiative.
 
