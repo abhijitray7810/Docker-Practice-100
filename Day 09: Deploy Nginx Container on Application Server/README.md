@@ -16,7 +16,7 @@ This document provides instructions for deploying an nginx container on Applicat
 ## Deployment Steps
 
 ### 1. Connect to Application Server 1
-```bash
+```bash 
 ssh user@application-server-1
 ```
 Replace `user` with your actual username and `application-server-1` with the correct hostname or IP address.
